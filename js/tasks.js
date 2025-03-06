@@ -1,5 +1,10 @@
 document.getElementById('compelte-btn')
 .addEventListener('click',function(){
+   const button =document.getElementById('compelte-btn')
+    button.setAttribute('disabled',true)
+    console.log(button);
+    button.style.color='black'
+    button.style.backgroundColor='gray'
    const tasks =document.getElementById('task-btn').innerText;
     const convertedTasks=parseInt(tasks);
     const them=document.getElementById('them-ntn').innerText;
@@ -10,14 +15,20 @@ document.getElementById('compelte-btn')
             const num =converthem+1
             document.getElementById('them-ntn').innerText=num;
             alert('welcome')
+            
          }
-        
+          
 })
 
 // buttton.....2
 
 document.getElementById('compelte-btn2')
 .addEventListener('click',function(){
+   const button =document.getElementById('compelte-btn2')
+    button.setAttribute('disabled',true)
+    console.log(button);
+    button.style.color='black'
+    button.style.backgroundColor='gray'
    const tasks =document.getElementById('task-btn').innerText;
     const convertedTasks=parseInt(tasks);
     const them=document.getElementById('them-ntn').innerText;
@@ -28,7 +39,7 @@ document.getElementById('compelte-btn2')
             const num =converthem+1
             document.getElementById('them-ntn').innerText=num;
             alert('welcome')
-             disebled=true
+             disabled=true
            
          }
         
@@ -37,6 +48,11 @@ document.getElementById('compelte-btn2')
 
 document.getElementById('compelte-btn3')
 .addEventListener('click',function(){
+   const button =document.getElementById('compelte-btn3')
+    button.setAttribute('disabled',true)
+    console.log(button);
+    button.style.color='black'
+    button.style.backgroundColor='gray'
    const tasks =document.getElementById('task-btn').innerText;
     const convertedTasks=parseInt(tasks);
     const them=document.getElementById('them-ntn').innerText;
@@ -55,8 +71,12 @@ document.getElementById('compelte-btn3')
 // buttton...4
 
 document.getElementById('compelte-btn4')
-.addEventListener('click',function(event){
-   const button = event.target;
+.addEventListener('click',function(){
+   const button =document.getElementById('compelte-btn4')
+    button.setAttribute('disabled',true)
+    console.log(button);
+    button.style.color='black'
+    button.style.backgroundColor='gray'
    const tasks =document.getElementById('task-btn').innerText;
     const convertedTasks=parseInt(tasks);
     const them=document.getElementById('them-ntn').innerText;
@@ -67,7 +87,7 @@ document.getElementById('compelte-btn4')
             const num =converthem+1
             document.getElementById('them-ntn').innerText=num;
             alert('welcome')
-             button.disabled= true
+          
            
          }
         
@@ -77,6 +97,11 @@ document.getElementById('compelte-btn4')
 
 document.getElementById('compelte-btn5')
 .addEventListener('click',function(){
+   const button =document.getElementById('compelte-btn5')
+    button.setAttribute('disabled',true)
+    console.log(button);
+    button.style.color='black'
+    button.style.backgroundColor='gray'
    const tasks =document.getElementById('task-btn').innerText;
     const convertedTasks=parseInt(tasks);
     const them=document.getElementById('them-ntn').innerText;
@@ -95,7 +120,13 @@ document.getElementById('compelte-btn5')
 
 // buttto....6
 document.getElementById('compelte-btn6')
+
 .addEventListener('click',function(){
+   const button =document.getElementById('compelte-btn6')
+   button.setAttribute('disabled',true)
+   console.log(button);
+   button.style.color='black'
+   button.style.backgroundColor='gray'
    const tasks =document.getElementById('task-btn').innerText;
     const convertedTasks=parseInt(tasks);
     const them=document.getElementById('them-ntn').innerText;
@@ -106,7 +137,7 @@ document.getElementById('compelte-btn6')
             const num =converthem+1
             document.getElementById('them-ntn').innerText=num;
             alert('welcome')
-             disebled=true
+            
            
          }
         
